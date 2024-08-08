@@ -1,7 +1,9 @@
 {
   "name": "react-component-package",
   "version": "0.0.1",
-  "scripts": {},
+  "scripts": {
+    "rollup": "rollup -c"
+  },
   "author": "Jerome Gomez",
   "license": "ISC",
   "description": "A react component library",
@@ -13,6 +15,7 @@
     "react": "^18.3.1",
     "rollup": "^4.20.0",
     "rollup-plugin-dts": "^6.1.1",
+    "tslib": "^2.6.3",
     "typescript": "^5.5.4"
   },
   "main": "dist/cjs/index.js",
