@@ -1,13 +1,10 @@
 {
   "name": "react-component-package",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "version": "0.0.1",
+  "scripts": {},
+  "author": "Jerome Gomez",
   "license": "ISC",
-  "description": "",
+  "description": "A react component library",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^26.0.1",
     "@rollup/plugin-node-resolve": "^15.2.3",
@@ -17,5 +14,11 @@
     "rollup": "^4.20.0",
     "rollup-plugin-dts": "^6.1.1",
     "typescript": "^5.5.4"
-  }
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
 }
