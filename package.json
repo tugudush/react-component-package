@@ -1,6 +1,6 @@
 {
   "name": "@tugudush/react-component-package",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "scripts": {
     "rollup": "rollup -c"
   },
@@ -12,6 +12,8 @@
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-typescript": "^11.1.6",
     "@types/react": "^18.3.3",
+    "postcss": "^8.4.41",
+    "postcss-cli": "^11.0.0",
     "react": "^18.3.1",
     "rollup": "^4.20.0",
     "rollup-plugin-dts": "^6.1.1",
