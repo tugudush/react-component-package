@@ -1,6 +1,6 @@
 {
   "name": "@tugudush/react-component-package",
-  "version": "0.0.5",
+  "version": "0.0.12",
   "scripts": {
     "rollup": "rollup -c"
   },
